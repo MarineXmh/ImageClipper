@@ -12,6 +12,8 @@
 		1A66953C1EA3679B00F78B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A66953A1EA3679B00F78B97 /* Main.storyboard */; };
 		1A66953E1EA3679B00F78B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A66953D1EA3679B00F78B97 /* Assets.xcassets */; };
 		1A6695411EA3679B00F78B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A66953F1EA3679B00F78B97 /* LaunchScreen.storyboard */; };
+		1A66954B1EA36FA800F78B97 /* ImageClipperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66954A1EA36FA800F78B97 /* ImageClipperView.swift */; };
+		1A66954D1EA39C7400F78B97 /* ImageClipperRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66954C1EA39C7400F78B97 /* ImageClipperRect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1A66953D1EA3679B00F78B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6695401EA3679B00F78B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6695421EA3679B00F78B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A66954A1EA36FA800F78B97 /* ImageClipperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClipperView.swift; sourceTree = "<group>"; };
+		1A66954C1EA39C7400F78B97 /* ImageClipperRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClipperRect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				1A6695361EA3679B00F78B97 /* AppDelegate.swift */,
 				1A6695381EA3679B00F78B97 /* ViewController.swift */,
+				1A66954A1EA36FA800F78B97 /* ImageClipperView.swift */,
+				1A66954C1EA39C7400F78B97 /* ImageClipperRect.swift */,
 				1A66953A1EA3679B00F78B97 /* Main.storyboard */,
 				1A66953D1EA3679B00F78B97 /* Assets.xcassets */,
 				1A66953F1EA3679B00F78B97 /* LaunchScreen.storyboard */,
@@ -96,7 +102,7 @@
 				TargetAttributes = {
 					1A6695321EA3679B00F78B97 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = P38BZ2KVNT;
+						DevelopmentTeam = U59U6HYL2Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6695391EA3679B00F78B97 /* ViewController.swift in Sources */,
+				1A66954D1EA39C7400F78B97 /* ImageClipperRect.swift in Sources */,
+				1A66954B1EA36FA800F78B97 /* ImageClipperView.swift in Sources */,
 				1A6695371EA3679B00F78B97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +271,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P38BZ2KVNT;
+				DEVELOPMENT_TEAM = U59U6HYL2Z;
 				INFOPLIST_FILE = ImageClipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Xu-Menghua.ImageClipper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,8 +285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P38BZ2KVNT;
+				DEVELOPMENT_TEAM = U59U6HYL2Z;
 				INFOPLIST_FILE = ImageClipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Xu-Menghua.ImageClipper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +314,7 @@
 				1A6695471EA3679B00F78B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
